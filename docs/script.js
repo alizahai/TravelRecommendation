@@ -20,7 +20,7 @@ function searchCondition() {
   //   timeDiv.classList.add("time");
   //   resultDiv.append(timeDiv);
 
-  fetch("travel_recommendation_api.json")
+  fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
       const matchedPlaces = [];
