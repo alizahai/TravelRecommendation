@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div id="name-logo">
+        <img src="images/world.png" height="50" />
+        <h1>TravelGuide</h1>
+      </div>
+      <ul>
+        <li><a href="./index.html" id="home">Home </a></li>
+        <li><a href="./about.html" id="home">About Us </a></li>
+        <li><a href="./contact.html" id="contact">Contact Us </a></li>
+      </ul>
+    </nav>
+
+    <!--Contact Us Page-->
+    <div class="container">
+      <div class="heading-container">
+        <h1>CONTACT US</h1>
+      </div>
+
+      <div class="ContactForm">
+        <form>
+          <h2>Send Message</h2>
+          <div class="inputbox" id="name">
+            <input type="text" required="required" />
+            <span>Full Name</span>
+          </div>
+          <div class="inputbox" id="email">
+            <input type="email" required="required" />
+            <span>Email</span>
+          </div>
+          <div class="inputbox" id="message">
+            <input type="text" required="required" />
+            <span>Type your Message</span>
+          </div>
+          <div class="inputbox">
+            <button
+              type="submit"
+              onclick="thankyou()"
+              value="Send"
+              id="SubmitButton"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      function thankyou() {
+        alert("Thank you for contacting us!");
+      }
+    </script>
+  </body>
+</html>

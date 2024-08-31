@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Recommendation Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div id="name-logo">
+        <img src="images/world.png" height="50" />
+        <h1>TravelGuide</h1>
+      </div>
+      <ul>
+        <li><a href="./index.html" id="home">Home </a></li>
+        <li><a href="./about.html" id="home">About Us </a></li>
+        <li><a href="./contact.html" id="contact">Contact Us </a></li>
+      </ul>
+      <div id="rightPanel">
+        <input
+          type="text"
+          id="conditionInput"
+          placeholder="Enter a destination or keyword"
+        />
+        <img id="img-rightpanel" src="images/sarchIcon.svg" />
+        <button id="btnSearch">Search</button>
+        <button id="btnReset">Clear</button>
+      </div>
+    </nav>
+
+    <!-- Home page -->
+    <div id="home-container" class="container">
+      <div id="intro">
+        <h1 class="page-heading">Explore</h1>
+        <h1 class="page-heading">Your Dream</h1>
+        <h1 class="page-heading">Destination</h1>
+        <br />
+        <pre id="intro-para">
+        Welcome to TravelGuide, your gateway to discovering 
+        the world's most captivating destinations!
+        Start exploring with us today!</pre
+        >
+      </div>
+      <div class="searchCondition">
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
