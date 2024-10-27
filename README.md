@@ -1,4 +1,4 @@
-Main features of website:
+# Main features of website:
 
 Enhanced user navigation: Implemented an intuitive navigation bar with clear links to the Home, About Us, and Contact Us sections, ensuring a user friendly website.
 
